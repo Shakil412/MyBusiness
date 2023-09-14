@@ -1,0 +1,191 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 140, 255);
+    color: black;
+    
+    text-align: center;
+}
+
+
+
+header #b-name{
+
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: black;
+    padding: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+nav a:hover {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.BrandName {
+    background-image: url(photo/Cover.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5px;
+    background-image: (rgba(124, 252, 46, 100));
+}
+
+.container{
+
+    background-color: rgba(36, 32, 32, 0.384);
+    border: 15px solid black;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+
+}
+
+.namelist {
+    list-style: none;
+    padding: 10px;
+    width: 20%;
+}
+
+.namelist li {
+    margin: 20px;
+    
+}
+.namelist li a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.1s;
+    text-transform: uppercase;
+}
+
+.namelist li a:hover {
+    color: white;
+    background-color: black;
+    font-size: 28px;
+
+
+}
+
+@media screen and (max-width: 580px) {
+    header {
+        padding: 10px;
+    }
+    
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+
+
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        padding: 15px;
+        transition: 0.1;
+
+    }
+
+
+
+    .namelist li {
+        
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.336);
+        border-radius: 5px;
+        padding: 1rem;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .namelist li a{
+
+        text-align: center;
+    }
+
+    
+
+    .container .channel{
+
+        color: white;
+        height: 12rem;
+        width: 100px;
+
+        
+    }
+
+    
+    .container .channel .fa{
+
+        padding: 0%;
+        
+    }
+
+
+
+}
+
+.channel{
+
+    background-color: black;
+    border-radius: 55%;
+    border: 5px solid rgb(0, 217, 255);
+    color: white;
+    padding: 8%;
+    padding-top: 2%;
+    margin: 10% 0 0 10%;
+    height: 30px;
+    width: 200px;
+    
+}
+
+ .container .fa{
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    font-size: 3rem;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10;
+    justify-content: center;
+    border-radius: 50%;
+    color: aqua;
+}
+
+.container .fa:hover{
+    color: green;
+    
+    
+    
+}
